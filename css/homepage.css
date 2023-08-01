@@ -225,6 +225,67 @@ h2 {
     color: rgb(29, 28, 28);
 }
 
+form{  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input{ 
+  width: 70%;
+  height: 50px;
+  font-family: Lilita One;
+}
+
+textarea{
+  width: 70%;
+}
+
+.field{
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0,0,0);
+  border-radius: 1rem;
+  background-color: white;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+.field:hover{
+  background-color: rgba(161, 210, 247, 0.378);
+}
+
+.field:focus{
+  background-color: #fff;
+  border: 2px solid rgba(19, 71, 110, 0.596);
+}
+.btn{
+  text-decoration: none;
+  color: gray;
+  background-color: white ;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px ;
+  font-size: x-large;
+  font-family: Lobster;
+  padding: 10px;
+  margin: 20px;
+  transition: transform 0.3s;
+  
+}
+
+.btn:hover{
+  background-color: gray;
+color: white;
+transform: translateY(-5px
+);
+}
+form h2{
+  font-size: 50px;
+
+  margin-bottom: 50px;
+}
 @media (max-width: 795px)
 {
     #menu-icon{
