@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+   
   </head>
-  <body>
+  <body >
     <header>
       <header class="navbar">
         <div class="logo">
@@ -19,12 +20,12 @@
         <nav class="nav-links">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#Product"> Product</a></li>
+            <li><a href="product.html"> Product</a></li>
             <li><a href="Contact.html"> Contact</a></li>
   
             <li><a href="Account.html"> Account</a></li>
             <li>
-              <a href="Cart.html">
+              <a  class="carticon" href="Cart.html">
                 <img
                   src="images/logo_ex-removebg-preview.png"
                   alt="cartlogo"
@@ -74,7 +75,7 @@
             <td class="qpro">
               <div class="qubtn">
                 <button
-                  type="button"
+                  type="button" 
                   onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
                 >
                   -

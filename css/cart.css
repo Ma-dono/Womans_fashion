@@ -1,38 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-*{
-margin: 10px;
-background-color: rgba(233, 223, 203, 0.562);
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: beige;
+}
+main{
+    margin-left: 10px;
+}
+li{
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgba(240, 212, 196, 0.932);
+    font-family: Lilita One;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+  }
+  
+  .logo{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .logo img {
+    width: 125px;
+  }
+  
+  .nav-links{
+      width: 70%;
+      display: flex;
+      align-items: center;
+  }
+  
+  .nav-links ul{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+  
+  .nav-links ul li{
+     margin-left: 60px;
+  }
+  
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.932);
+    font-size: x-large;
+    font-weight: bolder;
+  }
 .cart-logo{
     display: flex;
     flex-direction: column;
-}
-.cart-logo img{
+    margin-left: 30px;
+    padding-top: 150px;
+  }
+  .cart-logo img{
     width: 100px;
     height: 100px;
-}
-.cart-logo h1{
+    
+  }
+  .cart-logo h1{
     font-size: xx-large;
     font-family: Lobster;
-}
-table{
-    margin-top: 50px;
+  }
+  table{
+    margin-top: 100px;
     margin-left: 100px;
     width: 1000px;
     height: 800px;
     
-} 
-
-th{
+  } 
+  
+  th{
     height: 50px;
     
     border-bottom: 2px solid gray;
     font-size: xx-large;
     font-family: Lilita One;
    
-}
-.npro{
+  }
+  .npro{
     width: 400px;
     height: 100px;
     
@@ -41,72 +102,72 @@ th{
     
   
    
-}
-.tpro{
+  }
+  .tpro{
     padding-left: 20px;
     font-size: 20px;
     font-family: Lilita One;
    
     
-}
-
+  }
+  
     
-
-.npro-img img{
+  
+  .npro-img img{
     width: 60px;
     height: 80px;
     border: 2px solid gray;
     border-radius: 7px;
-}
-
-.npro div{
+  }
+  
+  .npro div{
     display: flex;
     flex-direction: row;
     padding-left: 50px;
-}
-
-.spro{
+  }
+  
+  .spro{
     width: 70px;
     
     border-bottom: 2px solid gray;
    
-}
-.spro span{
+  }
+  .spro span{
     padding: 15px;
     border: 2px solid gray;
     border-radius: 7px;
     
-}
-
-.qpro{
+  }
+  
+  .qpro{
     width: 150px;
    
    border-bottom: 2px solid grey;
-}
-
-.rpro{
+  }
+  
+  .rpro{
     width: 150px;
    
     border-bottom: 2px solid gray;
     
-}
-.rpro span{
+  }
+  .rpro span{
    padding: 15px;
    border: 2px solid grey;
    border-radius: 7px;
-}
-.ppro{
+  }
+  .ppro{
     width: 100px;
     
     border-bottom: 2px solid gray;
     
-}
-.ppro span{
+  }
+  .ppro span{
    padding-left: 30px;
    border: 2px solid grey;
    border-radius: 7px;
-}
-.total{
+  }
+  .total{
     margin: 100px;
     margin-left: 100px;
     border: 5px solid grey;
@@ -114,18 +175,18 @@ th{
     background-color: rgba(255, 255, 255, 0.534);
     border-radius: 10px;
     
-}
-.total h1{
+  }
+  .total h1{
     border-bottom: 2px solid gray;
-width: 400px;
+  width: 400px;
     padding: 20px;
     background-color:rgba(255, 255, 255, 0.534);
     color: gray;
     font-family: Lobster;
     
-}
-
-.total p{
+  }
+  
+  .total p{
    font-size: larger; 
    font-weight: bolder;
    margin-top: 10px;
@@ -133,39 +194,37 @@ width: 400px;
    color: gray;
    font-family: Lobster;
   
-}
-P span{
+  }
+  P span{
     padding-left: 200px;
     background-color: rgba(255, 255, 255, 0.534);;;
     color: gray;
    
-
-}
-.totalamount{
+  
+  }
+  .totalamount{
     border-top: 2px solid grey;
     padding-top: 20px;
     width: 445px;
     background-color: rgba(255, 255, 255, 0.534);;
     
-} div .qubtn{
+  } div .qubtn{
     display: flex;
     justify-content: center;
     flex-direction: row;
     
-}
-
-input[type=number]{
+  }
+  
+  input[type=number]{
     width: 30px;
     height: 20px;
     text-align: center;
     border-radius: 5px;
    
-}
-button{
+  }
+  button .qubtn{
     height: 20px;
     width: 30px;
     border-radius: 5px;
-}
-
+  }
   
-
