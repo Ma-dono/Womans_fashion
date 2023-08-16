@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open paged'accueil.html",
-            "file": "c:\\Users\\JEREMIE\\Desktop\\GOMYCODE\\Intro Web\\classe 2\\final-project\\mon-premier-projet\\paged'accueil.html"
+            "file": "${file}"
         }
     ]
 }
