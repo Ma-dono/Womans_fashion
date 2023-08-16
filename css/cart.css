@@ -227,4 +227,8 @@ li{
     width: 30px;
     border-radius: 5px;
   }
-  
+  .icon-size {
+    font-size: xx-large;
+    margin-left: 50px;
+    color: grey;
+  }
