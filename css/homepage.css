@@ -164,7 +164,9 @@ p {
     display: flex;
     justify-content: center;
 }
-
+.categorie h2{
+  font-size: 40px;
+}
 .col-4 {
   flex-basis: 25%;
   transition: transform 0.5s;
@@ -175,6 +177,16 @@ p {
   margin-top: 50px;
   border: 1px solid rgba(95, 91, 91, 0.822);
   border-radius: 10px;
+ 
+}
+.name-price{
+  display: flex;
+  flex-direction: row;
+  
+}
+.price span{
+  margin-left: 10px;
+ 
 }
 .col-4:hover {
   transform: translateY(-5px);
@@ -192,6 +204,7 @@ p {
 .col-5 img {
   margin-right: 20px;
 }
+
 h2 {
   text-decoration: underline;
   text-underline-offset: 10px;
@@ -200,6 +213,7 @@ h2 {
   font-family: Lobster;
   color: rgb(0, 0, 0);
 }
+
 .col-5 {
   font-size: xx-large;
   font-family: Lobster;
@@ -316,166 +330,46 @@ form h2{
 
 
 
-.cart-logo{
+footer {
   display: flex;
   flex-direction: column;
+width: 100%;
+border: 2px solid black;
+margin-top: 40px;
+background-color: rgba(31, 27, 27, 0.534);
+color:wheat
 }
-.cart-logo img{
-  width: 100px;
-  height: 100px;
-  
+.footer-firstpart{
+  display: flex;
+ 
+
 }
-.cart-logo h1{
+.footer-title h2{
+ display: flex;
+  justify-content: center;
   font-size: xx-large;
-  font-family: Lobster;
+margin-bottom: 40px;
+margin-top: 20px;
+color:wheat;
+font-family: Lobster;
 }
-table{
-  margin-top: 50px;
-  margin-left: 100px;
-  width: 1000px;
-  height: 800px;
-  
-} 
-
-th{
-  height: 50px;
-  
-  border-bottom: 2px solid gray;
-  font-size: xx-large;
-  font-family: Lilita One;
- 
-}
-.npro{
-  width: 400px;
-  height: 100px;
-  
-  border-bottom: 2px solid gray;
-  justify-content: first baseline;
-  
-
- 
-}
-.tpro{
-  padding-left: 20px;
-  font-size: 20px;
-  font-family: Lilita One;
- 
-  
-}
-
-  
-
-.npro-img img{
-  width: 60px;
-  height: 80px;
-  border: 2px solid gray;
-  border-radius: 7px;
-}
-
-.npro div{
+.footer-text  {
   display: flex;
   flex-direction: row;
-  padding-left: 50px;
-}
-
-.spro{
-  width: 70px;
-  
-  border-bottom: 2px solid gray;
- 
-}
-.spro span{
-  padding: 15px;
-  border: 2px solid gray;
-  border-radius: 7px;
+  justify-content: center;
+  font-family: Roboto Slab ;
   
 }
-
-.qpro{
-  width: 150px;
- 
- border-bottom: 2px solid grey;
-}
-
-.rpro{
-  width: 150px;
- 
-  border-bottom: 2px solid gray;
-  
-}
-.rpro span{
- padding: 15px;
- border: 2px solid grey;
- border-radius: 7px;
-}
-.ppro{
-  width: 100px;
-  
-  border-bottom: 2px solid gray;
-  
-}
-.ppro span{
- padding-left: 30px;
- border: 2px solid grey;
- border-radius: 7px;
-}
-.total{
-  margin: 100px;
-  margin-left: 100px;
-  border: 5px solid grey;
-  width: 500px;
-  background-color: rgba(255, 255, 255, 0.534);
-  border-radius: 10px;
-  
-}
-.total h1{
-  border-bottom: 2px solid gray;
-width: 400px;
-  padding: 20px;
-  background-color:rgba(255, 255, 255, 0.534);
-  color: gray;
-  font-family: Lobster;
-  
-}
-
-.total p{
- font-size: larger; 
- font-weight: bolder;
- margin-top: 10px;
- background-color: rgba(255, 255, 255, 0.534);
- color: gray;
- font-family: Lobster;
-
-}
-P span{
-  padding-left: 200px;
-  background-color: rgba(255, 255, 255, 0.534);;;
-  color: gray;
- 
-
-}
-.totalamount{
-  border-top: 2px solid grey;
-  padding-top: 20px;
-  width: 445px;
-  background-color: rgba(255, 255, 255, 0.534);;
-  
-} div .qubtn{
+.footer-secondpart{
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  
-}
 
-input[type=number]{
-  width: 30px;
-  height: 20px;
-  text-align: center;
-  border-radius: 5px;
- 
+  padding-bottom: 40px;
+padding-top: 20px;
+font-family: Roboto Slab  ;
+
 }
-button .qubtn{
-  height: 20px;
-  width: 30px;
-  border-radius: 5px;
+.icon-size{
+  font-size: xx-large;
+ margin-left: 50px;
 }
